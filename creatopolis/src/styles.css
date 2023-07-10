@@ -1,1 +1,88 @@
 /* You can add global styles to this file, and also import other style files */
+
+root {
+  --rosa-oficial: #CE1F64;
+}
+
+body {
+  background: #F8F8F8;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: #CE1F64;
+}
+
+.nav-link {
+  color: black;
+}
+
+input[type='radio']:checked {
+  accent-color: #CE1F64 !important;
+  border: 2px solid white;
+}
+
+input[type='text'] {
+  border: 0px;
+}
+
+.nav-link:hover {
+  color: white !important;
+  background: #CE1F64;
+}
+
+.nav-link:focus {
+  color: black;
+}
+
+.institutional-button {
+  color: white;
+  background: #CE1F64;
+}
+
+.nav-button:hover {
+  color: white;
+  border-radius: 4px;
+  background: pink;
+}
+
+.background-color-gray-1 {
+  background: #F8F8F8;
+}
+
+.background-color-gray-2 {
+  background: #F2F2F2;
+}
+
+.background-color-white-1 {
+  background: white;
+}
+
+
+.shadow-box-1 {
+  box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.041);
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-rigth {
+  text-align: right;
+}
+
+.margin-1-rem {
+  margin: 1rem;
+}
+
+.width-25-rem{
+  width: 25rem;
+}
+

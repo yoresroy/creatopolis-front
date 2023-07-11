@@ -8,6 +8,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { MapaComponent } from './components/mapa/mapa.component';
 import { LoginComponent } from './components/login/login.component';
 import { RegistroComponent } from './components/registro/registro.component';
+import { MapViewComponent } from './components/map-view/map-view.component';
+import { LoadingComponent } from './components/loading/loading.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { RegistroComponent } from './components/registro/registro.component';
     HeaderComponent,
     MapaComponent,
     LoginComponent,
-    RegistroComponent
+    RegistroComponent,
+    MapViewComponent,
+    LoadingComponent
   ],
   imports: [
     BrowserModule,
